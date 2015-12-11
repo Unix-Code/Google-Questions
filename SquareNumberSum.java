@@ -1,8 +1,7 @@
-import java.util.ArrayList;
 public class SquareNumberSum {
     public static String summate(int start) {
         StringBuilder sb = new StringBuilder();
-        int maxSquare = findLargestSquare(start);
+        int maxSquare;
         int sum = 0;
 
         while (sum < start) {
@@ -14,7 +13,6 @@ public class SquareNumberSum {
 
             System.out.println("\nSum: " + sum);
         }
-        //sb.delete(sb.length() - 3, sb.length());
 
         return sb.toString();
     }
