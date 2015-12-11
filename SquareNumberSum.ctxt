@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=start
+comment0.target=java.lang.String\ summate(int)
+comment1.params=start
+comment1.target=int\ findLargestSquare(int)
+numComments=2
